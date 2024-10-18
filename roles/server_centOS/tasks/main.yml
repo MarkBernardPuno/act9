@@ -1,6 +1,6 @@
 ---
-- name: Install dependencies for Prometheus on Ubuntu
-  apt:
+- name: Install dependencies for Prometheus on CentOS
+  yum:
     name: curl
     state: present
 
